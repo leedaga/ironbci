@@ -26,7 +26,9 @@ Hardware demonstrations
    
 
 #### Citation  
-Rakhmatulin, I., et al. (2021). Low-cost brain computer interface for everyday use. Exp Brain Res. 239, 3573–3583. https://doi.org/10.1007/s00221-021-06231-4
+Original paper. 
+Rakhmatulin, I., et al. (2021). Low-cost brain-computer interface for everyday use. Exp Brain Res. 239, 3573–3583. https://doi.org/10.1007/s00221-021-06231-4  
+Updated paper will be available soon  
 
 #### Contacts   
 https://pieeg.com/   

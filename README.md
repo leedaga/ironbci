@@ -15,7 +15,8 @@
 
 #### How it Works  
 ![alt tag](https://github.com/pieeg-club/ironbci/blob/master/Supplementary%20files/BLE/app.png "app")
-   
+
+Framework can be changed and uploaded via ST-Link  
 ![alt tag](https://github.com/Ildaron/ironbci/blob/master/Supplementary%20files/stl1.bmp "stm32")
 
 
@@ -33,8 +34,6 @@ Chewing  and blinking artifacts
 Alpha rhythm
 ![alt tag](https://github.com/pieeg-club/ironbci/blob/master/Supplementary%20files/BLE/image_2.png "general view")
 
-Hardware demonstrations  
- 
 Hardware demonstrations  
 [![Hardware demonstrations](https://github.com/Ildaron/ironbci/blob/master/Supplementary%20files/hardware_ironbci.bmp)](https://youtu.be/j0kvDpfp6p8)    
    

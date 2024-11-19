@@ -5,6 +5,7 @@ Low-cost Wearable BLE 8 channels for dry and wet electrodes brain-computer inter
 
 
 #### How it Works  
+Just need switch on device and data can be received via BLE in mobile phone or in PC   
 ![alt tag](https://github.com/pieeg-club/ironbci/blob/master/Supplementary%20files/BLE/app.png "app")
 
 Framework can be changed and uploaded via ST-Link  

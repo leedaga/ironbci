@@ -1,7 +1,7 @@
 # Brain-Computer Interface ironbci (soon will be available in the market)
 
                             
-![alt tag](https://github.com/Ildaron/ironbci/blob/master/Supplementary%20files/general_view.jpg "general view")​
+![alt tag](https://github.com/pieeg-club/ironbci/blob/master/Supplementary%20files/BLE/image_2.png "general view")​
 
 ####  ADS1299 and STM32F407VE 
 -  [How it Works](https://github.com/Ildaron/ironbci/blob/master/README.md#1-how-it-works)  

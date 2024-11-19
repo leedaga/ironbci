@@ -10,14 +10,14 @@
 Framework can be changed and uploaded via ST-Link  
 ![alt tag](https://github.com/Ildaron/ironbci/blob/master/Supplementary%20files/stl1.bmp "stm32")
 
-Chewing  and blinking artifacts
-Dry Electrodes Ag/AgCl, without Gel      
-Raw data, 250 samples per second     
+#### Chewing  and blinking artifacts  
+Dry Electrodes Ag/AgCl, without Gel        
+Raw data, 250 samples per second       
 ![alt tag](https://github.com/pieeg-club/ironbci/blob/master/Supplementary%20files/BLE/image_3.png "general view")
 
-Alpha rhythm
-Dry Electrodes Ag/AgCl, without Gel      
-Raw data, 250 samples per second     
+#### Alpha rhythm  
+Dry Electrodes Ag/AgCl, without Gel        
+Raw data, 250 samples per second       
 ![alt tag](https://github.com/pieeg-club/ironbci/blob/master/Supplementary%20files/BLE/image_2.png "general view")
 
 Hardware demonstrations  

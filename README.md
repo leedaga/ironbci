@@ -20,10 +20,10 @@ Hardware demonstrations
 [![Hardware demonstrations](https://github.com/Ildaron/ironbci/blob/master/Supplementary%20files/hardware_ironbci.bmp)](https://youtu.be/j0kvDpfp6p8)    
    
 
-#### 6. Citation  
+#### Citation  
 Rakhmatulin, I., et al. (2021). Low-cost brain computer interface for everyday use. Exp Brain Res. 239, 3573–3583. https://doi.org/10.1007/s00221-021-06231-4
 
-#### 7. Contacts   
+#### Contacts   
 https://pieeg.com/   
 pieeg@pieeg.com  
 

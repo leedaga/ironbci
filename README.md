@@ -19,15 +19,6 @@
 Framework can be changed and uploaded via ST-Link  
 ![alt tag](https://github.com/Ildaron/ironbci/blob/master/Supplementary%20files/stl1.bmp "stm32")
 
-
-####  2.  General pin information about ADS1299 signals
-
-2.1.DRDY output -  high when conversion starts    
-2.2  Two ways to read data:      
-      - RDATA - continuous read command;      
-      - SDATA - on request.  
-
-
 Chewing  and blinking artifacts
 ![alt tag](https://github.com/pieeg-club/ironbci/blob/master/Supplementary%20files/BLE/image_3.png "general view")
 

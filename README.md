@@ -21,20 +21,12 @@
 
 
 ####  2.  General pin information about ADS1299 signals
-![alt tag](https://github.com/Ildaron/ironbci/blob/master/Supplementary%20files/stm1.bmp "stm32")​  
-SPI2 for communicate with ADS1299    
-UAART4 for send data by HC-12  
+
 2.1.DRDY output -  high when conversion starts    
 2.2  Two ways to read data:      
       - RDATA - continuous read command;      
       - SDATA - on request.  
-2.3. The amount of input data - 24 * 8 = 192 bits + 24 status bits, a total - 216 bits  
 
-#### 3. Configuration of control registers  
-
-#### 4. Description of code ADS_1299.c  
-Data transfer - "s", ends - "p"  
-Serial with baud rate - 115200.
  
 Hardware demonstrations  
 [![Hardware demonstrations](https://github.com/Ildaron/ironbci/blob/master/Supplementary%20files/hardware_ironbci.bmp)](https://youtu.be/kfbvYXvBCJk)    

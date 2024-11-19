@@ -1,5 +1,5 @@
 # Brain-Computer Interface ironbci (soon will be available in the market)
-
+Low-cost Wearable BLE 8 channels for dry and wet electrodes brain-computer interface with mobile SDK   
                             
 ![alt tag](https://github.com/pieeg-club/ironbci/blob/master/Supplementary%20files/BLE/image_5.png "general view")​
 

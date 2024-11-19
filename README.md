@@ -33,7 +33,9 @@ Hardware demonstrations
    
 
 #### 6. Citation  
-Rakhmatulin, I., Parfenov, A., Traylor, Z. et al. Low-cost brain computer interface for everyday use. Exp Brain Res (2021). https://doi.org/10.1007/s00221-021-06231-4
+Rakhmatulin, I., et al. (2021). Low-cost brain computer interface for everyday use. Exp Brain Res. 239, 3573–3583. https://doi.org/10.1007/s00221-021-06231-4
 
 #### 7. Contacts   
-https://pieeg.com/ 
+https://pieeg.com/   
+pieeg@pieeg.com  
+

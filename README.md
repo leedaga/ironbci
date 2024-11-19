@@ -1,6 +1,6 @@
 # Brain-Computer Interface ironbci
 Low-cost Wearable BLE 8 channels for dry and wet electrodes brain-computer interface with mobile SDK   
-                            
+3 board connected in one - battery, digital and analog boards                              
 ![alt tag](https://github.com/pieeg-club/ironbci/blob/master/Supplementary%20files/BLE/image_5.png "general view")​
 
 

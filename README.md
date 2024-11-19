@@ -26,6 +26,14 @@
       - RDATA - continuous read command;      
       - SDATA - on request.  
 
+
+Chewing  and blinking artifacts
+![alt tag](https://github.com/pieeg-club/ironbci/blob/master/Supplementary%20files/BLE/image_1.png "general view")
+
+Alpha rhythm
+![alt tag](https://github.com/pieeg-club/ironbci/blob/master/Supplementary%20files/BLE/image_2.png "general view")
+
+Hardware demonstrations  
  
 Hardware demonstrations  
 [![Hardware demonstrations](https://github.com/Ildaron/ironbci/blob/master/Supplementary%20files/hardware_ironbci.bmp)](https://youtu.be/j0kvDpfp6p8)    

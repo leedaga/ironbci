@@ -13,7 +13,6 @@
 -  [Citation](https://github.com/Ildaron/ironbci/blob/master/README.md#7-citation)   
 -  [Contacts](https://github.com/Ildaron/ironbci/blob/master/README.md#8-contacts)     
 
-[GNU license](https://github.com/Ildaron/ironbci/blob/master/license.txt)
 #### How it Works  
 ![alt tag](https://github.com/pieeg-club/ironbci/blob/master/Supplementary%20files/BLE/app.png "app")
    

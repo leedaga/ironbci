@@ -3,15 +3,6 @@
                             
 ![alt tag](https://github.com/pieeg-club/ironbci/blob/master/Supplementary%20files/BLE/image_5.png "general view")​
 
-####  ADS1299 and STM32F407VE 
--  [How it Works](https://github.com/Ildaron/ironbci/blob/master/README.md#1-how-it-works)  
--  [Device pinout](https://github.com/Ildaron/ironbci#2--general-pin-information-about-ads1299-signals)   
--  [Configuration of control registers](https://github.com/Ildaron/ironbci#3-configuration-of-control-registers)     
--  [Description of code ADS_1299.c](https://github.com/Ildaron/ironbci#4-description-of-code-ads_1299c)    
--  [STM32 programming](https://github.com/Ildaron/ironbci#5-stm32-programming)  
--  [Hardware and Signal processing demonstrations](https://github.com/Ildaron/ironbci#6-hardware-and-signal-processing-demonstrations)     
--  [Citation](https://github.com/Ildaron/ironbci/blob/master/README.md#7-citation)   
--  [Contacts](https://github.com/Ildaron/ironbci/blob/master/README.md#8-contacts)     
 
 #### How it Works  
 ![alt tag](https://github.com/pieeg-club/ironbci/blob/master/Supplementary%20files/BLE/app.png "app")

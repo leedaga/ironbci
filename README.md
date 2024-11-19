@@ -28,7 +28,7 @@
 
 
 Chewing  and blinking artifacts
-![alt tag](https://github.com/pieeg-club/ironbci/blob/master/Supplementary%20files/BLE/image_1.png "general view")
+![alt tag](https://github.com/pieeg-club/ironbci/blob/master/Supplementary%20files/BLE/image_3.png "general view")
 
 Alpha rhythm
 ![alt tag](https://github.com/pieeg-club/ironbci/blob/master/Supplementary%20files/BLE/image_2.png "general view")

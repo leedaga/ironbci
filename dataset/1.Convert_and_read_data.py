@@ -1,54 +1,33 @@
-
 import sys
-import time
-import  matplotlib.pyplot as plt
-from scipy.ndimage import gaussian_filter1d
+import matplotlib.pyplot as plt
 import pandas as pd
 from scipy import signal
 import numpy as np
-from peakdetect import peakdetect
-from pyhht.emd import EMD
-from sklearn.cluster import KMeans
-#rom PyEMD import EEMD # pip install EMD-signal
-import scipy.interpolate as spi
-from sklearn.preprocessing import StandardScaler
-from sklearn.preprocessing import StandardScaler
 import re
-from scipy.integrate import simps
 from scipy import signal
-import EntropyHub as EH
 
-sc_X = StandardScaler()
-kmeans = KMeans(n_clusters=2, init='k-means++', max_iter=3, tol=1000.001, verbose=10, random_state=1, n_init=10,  copy_x=True, algorithm='elkan') #algorithm= 'auto', 'full' or 'elkan
 location = 'eeg_data.txt'
-#location = 'C:/Users/IldaRon/Desktop/Ear_startUp/5.Chanell/test.txt'
 
 data_final = []
 data_result = 0
 data_test  = 0x7FFFFF
 data_check = 0xFFFFFF
 data_for_graph = []
+
 ch_1 = []
 ch_2 = []
 ch_3 = []
 ch_4 = []
+ch_5 = []
+ch_6 = []
+ch_7 = []
+ch_8 = []
+
 
 with open(location, 'r') as file:
-    data = file.read()    
-#   print (data)
-#   sys.exit() 
-#   data = [sublist[1:] for sublist in data]
-#   print (data)
+    data = file.read()
     data = [int(match) for match in re.findall(r'\d+', data)]
-
-    #start remove maerker 
-    amount = len(data)/121
-    positions_to_remove = []
-    for a in range (0,len(data),121):
-        positions_to_remove.append(a)
-    data = [data[i] for i in range(len(data)) if i not in positions_to_remove]
-    #stop remove maerker 
-    
+   
     for a_count in range (1,len(data)+1,1):
         data_result = (data_result<<8)|data[a_count-1]
         if a_count % 3 == 0:
@@ -61,17 +40,17 @@ with open(location, 'r') as file:
             data_for_graph.append(result)
             data_result = 0
 
-ch_1 = [data_for_graph[i] for i in range(0, len(data_for_graph), 4)]
-ch_2 = [data_for_graph[i] for i in range(1, len(data_for_graph), 4)]
-ch_3 = [data_for_graph[i] for i in range(2, len(data_for_graph), 4)]
-ch_4 = [data_for_graph[i] for i in range(3, len(data_for_graph), 4)]
-    
-print (len(data_for_graph))
+ch_1 = [data_for_graph[i] for i in range(0, len(data_for_graph), 8)]
+ch_2 = [data_for_graph[i] for i in range(1, len(data_for_graph), 8)]
+ch_3 = [data_for_graph[i] for i in range(2, len(data_for_graph), 8)]
+ch_4 = [data_for_graph[i] for i in range(3, len(data_for_graph), 8)]
+ch_5 = [data_for_graph[i] for i in range(0, len(data_for_graph), 8)]
+ch_6 = [data_for_graph[i] for i in range(1, len(data_for_graph), 8)]
+ch_7 = [data_for_graph[i] for i in range(2, len(data_for_graph), 8)]
+ch_8 = [data_for_graph[i] for i in range(3, len(data_for_graph), 8)]
 data_raw = data_for_graph
+
 plt.plot(ch_1)
-plt.plot(ch_2)
-plt.plot(ch_3)
-plt.plot(ch_4)
 plt.show()
 
 #1.2 Band-pass filter
@@ -95,7 +74,7 @@ def butter_highpass_filter(data, cutoff, fs, order=5):
     return y
 
 #1.3 Set plot
-figure, axis = plt.subplots(4, 1, figsize=(10, 10))
+figure, axis = plt.subplots(8, 1, figsize=(10, 10))
 plt.subplots_adjust(hspace=2)
 
 axis[0].set_xlabel('Ch_1')
@@ -118,6 +97,27 @@ axis[3].set_xlabel('Time')
 axis[3].set_ylabel('Amplitude')
 axis[3].grid(True)
 
+axis[4].set_title('Ch_5')
+axis[4].set_xlabel('Time')
+axis[4].set_ylabel('Amplitude')
+axis[4].grid(True)
+
+axis[5].set_title('Ch_6')
+axis[5].set_xlabel('Time')
+axis[5].set_ylabel('Amplitude')
+axis[5].grid(True)
+
+axis[6].set_title('Ch_7')
+axis[6].set_xlabel('Time')
+axis[6].set_ylabel('Amplitude')
+axis[6].grid(True)
+
+axis[7].set_title('Ch_8')
+axis[7].set_xlabel('Time')
+axis[7].set_ylabel('Amplitude')
+axis[7].grid(True)
+
+
 line, = axis[3].plot([], [], marker='o', color='blue', linestyle='-', markersize=8)
 x_data_power = []
 y_data_power = []
@@ -125,10 +125,9 @@ y_data_power = []
 axis_x = 0
 axis_x_power = 0
 fps = 250    
-lowcut = 12
-highcut = 8
+lowcut = 30
+highcut = 0.5
 
-#  data_for_graph = dataset 
 ch_1_high = butter_highpass_filter(ch_1, highcut, fps)
 ch_1_band_pass = butter_lowpass_filter(ch_1_high, lowcut, fps)
 
@@ -140,27 +139,28 @@ ch_3_band_pass = butter_lowpass_filter(ch_3_high, lowcut, fps)
 
 ch_4_high = butter_highpass_filter(ch_4, highcut, fps)
 ch_4_band_pass = butter_lowpass_filter(ch_4_high, lowcut, fps)
+
+ch_5_high = butter_highpass_filter(ch_5, highcut, fps)
+ch_5_band_pass = butter_lowpass_filter(ch_5_high, lowcut, fps)
+
+ch_6_high = butter_highpass_filter(ch_6, highcut, fps)
+ch_6_band_pass = butter_lowpass_filter(ch_6_high, lowcut, fps)
+
+ch_7_high = butter_highpass_filter(ch_7, highcut, fps)
+ch_7_band_pass = butter_lowpass_filter(ch_7_high, lowcut, fps)
+
+ch_8_high = butter_highpass_filter(ch_8, highcut, fps)
+ch_8_band_pass = butter_lowpass_filter(ch_8_high, lowcut, fps)
+
 #ch_1_band_pass = ch_1_band_pass#[20000:150000]
 
 axis[0].plot(ch_1_band_pass)
 axis[1].plot(ch_2_band_pass)
 axis[2].plot(ch_3_band_pass)
 axis[3].plot(ch_4_band_pass)
+axis[4].plot(ch_5_band_pass)
+axis[5].plot(ch_6_band_pass)
+axis[6].plot(ch_7_band_pass)
+axis[7].plot(ch_8_band_pass)
+
 plt.show()
-
-
-nolds_data = []
-signal = ch_1_band_pass # np.sin(2 * np.pi * 1 * t)
-
-
-      
-for data_a in range(10000, len(signal), 10000):
-  data_sample = signal[:data_a]
-
-  Mobj = EH.MSobject('ApEn', m = 2, tau = 2, r = 0.5)
-  MSx, _ = EH.cMSEn(signal, Mobj, Scales = 3, RadNew = 1)
-  nolds_data.append(MSx)
-
-plt.plot(nolds_data)
-plt.show()
-

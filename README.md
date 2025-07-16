@@ -33,7 +33,7 @@ Hardware demonstrations (old version)
 
 #### Citation  
 Original paper. 
-Rakhmatulin, I., et al. (2021). Low-cost brain-computer interface for everyday use. Exp Brain Res. 239, 3573–3583. https://doi.org/10.1007/s00221-021-06231-4  
+Rakhmatulin, I. IronBCI: A Low-Cost, Open-Source BCI Platform with Mobile SDK for Rapid Neurotech Prototyping. Preprints 2025, 2025071198. https://doi.org/10.20944/preprints202507.1198.v1 
 The updated paper will be available soon  
 
 #### Contacts   

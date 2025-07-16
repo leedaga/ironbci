@@ -11,7 +11,7 @@ Low-cost Wearable BLE 8 channels for dry and wet electrodes, brain-computer inte
 
 
 #### How it Works  
-Just need to switch on the device and data can be received via BLE on a mobile phone or in PC   
+Just need to switch on the device, and data can be received via BLE on a mobile phone or in PC   
 ![alt tag](https://github.com/pieeg-club/ironbci/blob/master/Supplementary%20files/BLE/app.png "app")
 
 The framework can be changed and uploaded via ST-Link  
@@ -37,6 +37,7 @@ Rakhmatulin, I. IronBCI: A Low-Cost, Open-Source BCI Platform with Mobile SDK fo
  
 
 #### Contacts   
+Documentation https://pieeg.com/docs/docs/  
 https://pieeg.com/   
 pieeg@pieeg.com  
 

@@ -33,8 +33,8 @@ Hardware demonstrations (old version)
 
 #### Citation  
 Original paper. 
-Rakhmatulin, I. IronBCI: A Low-Cost, Open-Source BCI Platform with Mobile SDK for Rapid Neurotech Prototyping. Preprints 2025, 2025071198. https://doi.org/10.20944/preprints202507.1198.v1 
-The updated paper will be available soon  
+Rakhmatulin, I. IronBCI: A Low-Cost, Open-Source BCI Platform with Mobile SDK for Rapid Neurotech Prototyping. Preprints 2025, 2025071198. https://doi.org/10.20944/preprints202507.1198.v1   
+ 
 
 #### Contacts   
 https://pieeg.com/   

@@ -34,7 +34,9 @@ Raw data, 250 samples per second
 
 Device introduction   
 [![Hardware demonstrations](https://github.com/Ildaron/ironbci/blob/master/Supplementary%20files/hardware_ironbci.bmp)](https://youtu.be/gWpfsLuq_eE)    
-   
+
+SDK mobile app test 
+[![Hardware demonstrations](https://github.com/Ildaron/ironbci/blob/master/Supplementary%20files/mobile.jpg)](https://youtu.be/mxDg8fcnsZc)   
 
 #### Citation  
 Original paper. 

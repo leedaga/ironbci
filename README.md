@@ -38,6 +38,15 @@ Device introduction
 SDK mobile app test 
 [![Hardware demonstrations](https://github.com/Ildaron/ironbci/blob/master/Supplementary%20files/mobile.jpg)](https://youtu.be/mxDg8fcnsZc)   
 
+
+How to program a brain-computer interface - ironBCI, a low-cost brain-computer interface with BLE  
+[![Hardware demonstrations](https://github.com/pieeg-club/ironbci/blob/master/Supplementary%20files/sdk.png)](https://www.youtube.com/watch?v=iHrR5pZpmRM)   
+
+
+
+
+
+
 #### Citation  
 Original paper. 
 Rakhmatulin, I. IronBCI: A Low-Cost, Open-Source BCI Platform with Mobile SDK for Rapid Neurotech Prototyping. Preprints 2025, 2025071198. https://www.preprints.org/manuscript/202507.1198/v1  

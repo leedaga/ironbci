@@ -1,7 +1,7 @@
 # Brain-Computer Interface ironbci available in the [market](https://pieeg.com/ironbci/)
 Now you can buy a Low-cost brain-computer interface (non-invasive EEG system)  
 
-Low-cost Wearable BLE 8 channels for dry and wet electrodes, brain-computer interface with mobile SDK   
+Low-cost Wearable BLE 8 channels for dry and wet electrodes, brain-computer interface with mobile app (SDK) and Python      
 
 <img src="https://github.com/pieeg-club/ironbci/blob/master/Supplementary%20files/BLE/ironbci_genereal.jpg" alt="general view" title="general view" width="50%" height="50%">
 

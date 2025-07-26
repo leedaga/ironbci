@@ -28,7 +28,7 @@ Raw data, 250 samples per second
 ![alt tag](https://github.com/pieeg-club/ironbci/blob/master/Supplementary%20files/BLE/image_3.png "general view")
 
 #### Alpha rhythm test (eyes closed and open) 
-Dry Electrodes Ag/AgCl, without Gel        
+Dry Electrodes Ag/AgCl, without Gel. Orange line high - eyes closed, Orange line down - eyes open          
 Raw data, 250 samples per second       
 ![alt tag](https://github.com/pieeg-club/ironbci/blob/master/Supplementary%20files/alpha.jpg "general view")
 

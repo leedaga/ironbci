@@ -7,8 +7,9 @@ Low-cost Wearable BLE 8 channels for dry and wet electrodes, brain-computer inte
 
 
 3 boards connected in one battery, digital and analog boards                              
-![alt tag](https://github.com/pieeg-club/ironbci/blob/master/Supplementary%20files/BLE/image_5.png "general view")​
-
+![alt tag](https://github.com/pieeg-club/ironbci/blob/master/Supplementary%20files/BLE/image_5.png "general view")
+​
+<img src="https://github.com/pieeg-club/ironbci/blob/master/Supplementary%20files/BLE/image_5.png" alt="general view" title="general view" width="30%" height="30%">
 
 #### How it Works  
 Just need to switch on the device, and data can be received via BLE on a mobile phone or in PC   

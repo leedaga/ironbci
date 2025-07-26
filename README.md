@@ -30,7 +30,7 @@ Raw data, 250 samples per second
 #### Alpha rhythm test (eyes closed and open) 
 Dry Electrodes Ag/AgCl, without Gel        
 Raw data, 250 samples per second       
-![alt tag](https://github.com/pieeg-club/ironbci/blob/master/Supplementary%20files/BLE/alpha.jpg "general view")
+![alt tag](https://github.com/pieeg-club/ironbci/blob/master/Supplementary%20files/alpha.jpg "general view")
 
 Device introduction   
 [![Hardware demonstrations](https://github.com/Ildaron/ironbci/blob/master/Supplementary%20files/hardware_ironbci.bmp)](https://youtu.be/gWpfsLuq_eE)    

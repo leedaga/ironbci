@@ -5,6 +5,9 @@ Low-cost Wearable BLE 8 channels for dry and wet electrodes, brain-computer inte
 
 <img src="https://github.com/pieeg-club/ironbci/blob/master/Supplementary%20files/ironbci.jpg" alt="general view" title="general view" width="30%" height="30%">
 
+To read data   
+[SKD](https://github.com/pieeg-club/ironbci/tree/master/SDK) for Python   
+[SDK](https://github.com/pieeg-club/ironbci/tree/master/mobile_app) for Android     
 
 3 boards connected in one battery, digital and analog boards                              
 ​
